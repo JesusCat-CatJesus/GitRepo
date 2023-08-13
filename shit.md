@@ -1,34 +1,33 @@
 - making a remote:
 
-            `git remote add <name> <URL>`
+            git remote add <name> <URL>
 
 - first push:
 
-            `git push -u <remote-name> <Local branch>`
+            git push -u <remote-name> <Local branch>
 
 - "pulling"{
 
-            classic-way{
-                        //geting changes 
-    
-                        `git fetch <remote-name>`
+        classic-way{
+                //geting changes 
+                    git fetch <remote-name>
         
-                        //getting commmit log of both
+                //getting commmit log of both
             
-                        `git log <branch-name>`
+                    git log <branch-name>
 
-                        `git log <otherBranch-name>`
+                    git log <otherBranch-name>
 
-                        //getting differnce
+                //getting differnce
                 
-                        `git diff <branch-name>`
+                    git diff <branch-name>
             
-                        //merging changes
+                //merging changes
             
-                        `git merge <remote-name>/<branch-name>` 
+                    git merge <remote-name>/<branch-name> 
 	},
         easy-way{
-                `git pull <remote-name>`
+                git pull <remote-name>
 	}
 }
 
