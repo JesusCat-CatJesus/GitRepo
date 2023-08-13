@@ -25,7 +25,7 @@ pulling{
                 //merging changes
             
                     git merge <remote-name>/<branch-name> 
-            },
+        }
         
         easy-way{
                 git pull <remote-name>
