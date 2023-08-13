@@ -1,10 +1,10 @@
 - making a remote:
 
-            git remote add <name> <URL>
+    git remote add <name> <URL>
 
 - first push:
 
-            git push -u <remote-name> <Local branch>
+    git push -u <remote-name> <Local branch>
 
 - "pulling"{
 
@@ -26,11 +26,13 @@
             
                     git merge <remote-name>/<branch-name> 
 	},
+        
         easy-way{
                 git pull <remote-name>
 	}
+        
 }
 
 - push:
 
-            `git push <remote name>`
+    git push <remote name>
