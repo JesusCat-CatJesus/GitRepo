@@ -3,4 +3,4 @@
 - karides
 - balıx
 
-`#dassaxlarinizin saliğına`
+`#dassaxlarimizin saliğına`
